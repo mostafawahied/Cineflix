@@ -1,0 +1,213 @@
+name: cineflix
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image: ^2.1.4
+  cupertino_icons: ^0.1.2
+  smooth_star_rating: 1.0.3
+  flutter_svg: ^0.14.0
+  dynamic_theme: ^1.0.0
+  flute_music_player: ^0.0.6
+  flutter_launcher_icons: "^0.7.3"
+  intl: ^0.15.7
+  flutter_slidable: "^0.5.3"
+  open_iconic_flutter: ">=0.3.0 <0.4.0"
+  screen: ">=0.0.4 <0.1.0"
+  chewie: ^0.9.8
+  video_player: ^0.10.2+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+
+flutter_icons:
+  android: "launcher_icon" 
+  ios: true
+  image_path: "assets/Logo/icon only.png"
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+   - assets/wood_bk.jpg
+   - assets/Bohemian-Rhapsody-poster.jpg
+   - assets/DfBNWwsX4AMDYk1.jpg
+   - assets/maxresdefault.jpg
+   - assets/EBvMMWSWsAAx3t_.jfif
+   - assets/1504266508-justice-league-1.jpeg
+   - assets/dark_grunge_bk.jpg
+   - assets/Aquaman_poster.jpg
+   - assets/fid18233.jpg
+   - assets/268x0w.jpg
+   - assets/image_01.png
+   - assets/image_02.jpg
+   - assets/image_03.jpg
+   - assets/image_04.jpg
+   - assets/captain-marvel-movie-poster.jpg
+   - assets/Main image.jpg
+   - assets/68721293.jpg
+   - assets/aladdin-movie-review.800x600.jpg
+   - assets/Once-Upon-Time-Hollywood-2019.jpg
+   - assets/various_onceuponatime.jpg
+   - assets/onceUponTime/1.jpg
+   - assets/onceUponTime/2.jpg
+   - assets/onceUponTime/3.jpg
+   - assets/onceUponTime/4.jpg
+   - assets/onceUponTime/5.jpg
+   - assets/onceUponTime/6.jpg
+   - assets/onceUponTime/7.jpg
+   - assets/onceUponTime/8.jpg
+   - assets/onceUponTime/9.jpg
+   - assets/onceUponTime/10.jpg
+   - assets/onceUponTime/11.jpg
+   - assets/onceUponTime/12.jpg
+   - assets/onceUponTime/13.jpg
+   - assets/onceUponTime/14.jpg
+   - assets/onceUponTime/15.jpg
+   - assets/LeonardoDiCaprio/download.png
+   - assets/the-infinity-gauntlet-svgrepo-com.svg
+   - assets/images/email_icon.png
+   - assets/images/password_icon.png
+   - assets/images/user_icon.png
+   - assets/images/_MG_0306.JPG
+   - assets/lady.jpeg
+   - assets/music_record.jpeg
+   - assets/nhH3Ve6.jpg
+   - assets/theSecret/banner.png
+   - assets/theSecret/poster.png
+   - assets/theSecret/1.png
+   - assets/theSecret/2.png
+   - assets/theSecret/3.png
+   - assets/theSecret/4.png
+   - assets/theSecret/ellie.png
+   - assets/theSecret/eric.png
+   - assets/theSecret/jenny.png
+   - assets/theSecret/kevin.png
+   - assets/theSecret/louis.png
+   - assets/Logo/cineflix logo.png
+   - assets/Logo/icon only.png
+   - assets/Logo/text only.png
+   - assets/Logo/text.png
+   - assets/video.mp4
+   - assets/1538309100001.jpg
+   - assets/art-2617857905-x300.jpg
+   - assets/art-2689687052-x300.jpg
+   - assets/art-2617863573-x300.jpg
+   - assets/art-0059933432-x300.jpg
+   - assets/art-1454866491-x300.jpg
+   - assets/art-2617832399-x300.jpg
+   - assets/art-0181218713-x300.jpg
+   - assets/art-1246750284-x300.jpg
+   - assets/art-2062705645-x300.jpg
+   - assets/bad/BREAKING-600x382.jpg
+   - assets/bad/15.jpg
+   - assets/bad/11.jpg
+   - assets/bad/12.jpg
+   - assets/bad/13.jpg
+   - assets/bad/14.jpg
+   - assets/bad/1.jpg
+   - assets/bad/2.jpg
+   - assets/bad/3.jpg
+   - assets/bad/4.jpg
+   - assets/bad/111.jpg
+   - assets/bad/222.jpg
+   - assets/bad/333.jpg
+   - assets/bad/444.jpg
+   - assets/bad/555.jpg
+   - assets/art-0351520858-x300.jpg
+   - assets/art-1970661576-x300.jpg
+   - assets/art-1250373553-x300.jpg
+   - assets/art-2651379874-x300.jpg
+   - assets/1111.jpg
+   - assets/2222.jpg
+   - assets/3333.jpg
+   - assets/4444.jpg
+   - assets/5555.jpg
+   - assets/6666.jpg
+   - assets/666666666.jpg
+   - assets/88888888.jpg
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+     - family: bebas-neue
+       fonts:
+         - asset: assets/fonts/BebasNeue-Regular.ttf
+     - family: mermaid
+       fonts:
+         - asset: assets/fonts/Mermaid1001.ttf
+
+     - family: SF-Pro-Text-Regular
+       fonts:
+         - asset: assets/SF-Pro-Text-Regular.otf
+
+     - family: SF-Pro-Text-Bold
+       fonts:
+         - asset: assets/SF-Pro-Text-Bold.otf
+
+     - family: Calibre-Semibold
+       fonts:
+         - asset: assets/Calibre Semibold.otf
+
+     - family: CustomIcons
+       fonts:
+         - asset: assets/custom_icons.ttf
+
+     - family:  MyFlutterApp
+       fonts:
+         - asset: assets/fonts/MyFlutterApp.ttf
+
+     - family:  AxiformaRegular
+       fonts:
+         - asset: assets/fonts/FontsFree-Net-sddd4.ttf
+
+     - family:  BaskervilleSerialBold
+       fonts:
+         - asset: assets/fonts/baskerville-serial-bold.ttf
+
+     - family:  BaskervilleSerial
+       fonts:
+         - asset: assets/fonts/copyfonts.com_baskerville-serial-regular.ttf
+
+     - family:  EncorpadaClassic
+       fonts:
+         - asset: assets/fonts/dooType - Encorpada Classic SemiBold.otf
+
+         
